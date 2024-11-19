@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColasRabbit.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+          <Entry x:Name="EntradaCorreo" Placeholder="Escribe el correo aquí" />
+    <Button Text="Enviar Correo" Clicked="EnviarCorreo_Clicked" />
+    <Label x:Name="Estado" Text="Estado: En espera" TextColor="Gray" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
